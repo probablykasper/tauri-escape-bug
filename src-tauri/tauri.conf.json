@@ -46,7 +46,6 @@
     "allowlist": {},
     "security": {
       "csp": null
-    },
-    "macOSPrivateApi": true
+    }
   }
 }
