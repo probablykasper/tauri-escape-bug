@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "DEVELOPMENT=1 tauri dev",
+    "dev:web": "vite",
+    "build": "tauri build",
+    "build:web": "vite build",
+    "test": "echo 'No tests'",
+    "lint": "prettier --check --plugin-search-dir=. src *.js && eslint src *.js && svelte-check",
+    "format": "prettier --write --plugin-search-dir=. src *.js && eslint --fix src *.js"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.4.0",
+    "@tauri-apps/api": "^1.2.0",
+    "@tauri-apps/cli": "^1.2.2",
+    "cronstrue": "^2.21.0",
+    "svelte": "^3.54.0",
+    "svelte-preprocess": "^4.10.7",
+    "typescript": "^4.9.4",
+    "vite": "^3.2.5"
+  }
+}
